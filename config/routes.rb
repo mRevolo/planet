@@ -7,6 +7,8 @@ Planet::Application.routes.draw do
 
   get "planet/contact"
 
+  get "planet/author"
+
   resources :types do
       resources :sites
   end
