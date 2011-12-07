@@ -5,6 +5,9 @@ class PlanetController < ApplicationController
   def contact
   end
 
+  def ejemplo
+  end
+
   def author
     @authors = [
 	  # FIXME: Non-ascii characters raise an error
